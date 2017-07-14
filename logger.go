@@ -1,9 +1,9 @@
 package main
 
 import "os/exec"
-import "fmt"
 import "os"
 import "time"
+import "fmt"
 
 func main() {
   now := time.Now()
@@ -20,4 +20,5 @@ func main() {
   if _, err = f.WriteString(now.String() + " " + expression + "\n"); err != nil {
     panic(err)
   }
+  fmt.Print(string(out))
 }

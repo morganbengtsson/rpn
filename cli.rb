@@ -5,5 +5,7 @@ expressions = []
 
 num_expressions.times do  
   expression = gets.chomp    
-  result = exec('python calculator.py "' + expression + '"')
+  #result = exec('go run logger.go "' + expression + '"')
+  #puts "hej"
+  puts `go run logger.go "10 2 *"`
 end
