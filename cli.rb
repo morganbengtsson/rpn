@@ -6,13 +6,12 @@ expressions = []
 
 num_expressions.times do
   expressions.push(gets.chomp)
+end
+
+expressions.each do |expression|
   t0 = Time.now
   result = `go run logger.go "#{expression}"`
   delta = Time.now - t0
   puts result.delete!("\n") + ", " + delta.to_s
-end
-
-expressions.each {
-  puts x
-} 
+end 
 
