@@ -1,4 +1,4 @@
-puts "Welcome to the Reverse Polish notation Calculator. Enter the number of 
+puts "Welcome to the Reverse polish notation calculator. Enter the number of 
 expressions you want to solve, followed by one expression per row:"
 num_expressions = gets.chomp.to_i
 expressions = []
