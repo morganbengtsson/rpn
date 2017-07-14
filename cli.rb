@@ -3,8 +3,7 @@ expressions you want to solve, followed by one expression per row:"
 num_expressions = gets.chomp.to_i
 expressions = []
 
-num_expressions.times do
-  #expressions.push(gets.chomp)
+num_expressions.times do  
   expression = gets.chomp    
-  result = exec('python calculator.py ' + expression)
+  result = exec('python calculator.py "' + expression + '"')
 end

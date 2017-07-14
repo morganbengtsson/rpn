@@ -24,4 +24,5 @@ def evaluate(expression):
   return stack[0]
 
 expression = sys.argv[1]
+print(expression)
 print(evaluate(expression))
