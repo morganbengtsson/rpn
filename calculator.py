@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+import sys
+
 def calculate(operator, n0, n1):
   calculations = {'+' : n0 + n1, 
           '-' : n0 - n1, 
@@ -20,4 +23,5 @@ def evaluate(expression):
       stack.append(float(element))
   return stack[0]
 
-print(evaluate("10 2 +"))
+expression = sys.argv[1]
+print(evaluate(expression))

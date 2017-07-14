@@ -4,5 +4,7 @@ num_expressions = gets.chomp.to_i
 expressions = []
 
 num_expressions.times do
-  expressions.push(gets.chomp)
+  #expressions.push(gets.chomp)
+  expression = gets.chomp    
+  result = exec('python calculator.py ' + expression)
 end
