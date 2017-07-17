@@ -12,6 +12,12 @@ Finally run the cli interface and follow the instructions:
 
   ./rpn.rb
 
+You can also calculate expressions with an input file as so:
+
+.. code-block::bask
+
+   ./rpn.rb < input.txt
+
 
 .. _Go: https://golang.org/
 .. _Python: https://www.python.org/
