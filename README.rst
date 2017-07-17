@@ -6,7 +6,7 @@ To run it you need Go_, Python_ and Ruby_ installed. Then the go file needs to b
    
    go build -o logger
 
-Finally run the cli interface with, and follow the instructions:
+Finally run the cli interface and follow the instructions:
 
 .. code-block:: bash
 
