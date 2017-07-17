@@ -14,6 +14,6 @@ expressions.each do |expression|
   t0 = Time.now
   result = `./logger "#{expression}"`
   delta = Time.now - t0
-  puts result.delete!("\n") + ", " + delta.to_s
+  puts result.delete!("\n") + ", " + delta.round(3).to_s
 end 
 

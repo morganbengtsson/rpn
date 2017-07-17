@@ -24,4 +24,4 @@ def evaluate(expression):
   return stack[0]
 
 expression = sys.argv[1]
-print(evaluate(expression))
+print("%.2f" % evaluate(expression))
