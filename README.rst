@@ -12,7 +12,7 @@ Finally run the cli interface and follow the instructions:
 
   ./rpn.rb
 
-You can also calculate expressions with an input file as so:
+You can also calculate expressions with an input file like so:
 
 .. code-block:: bash
 
