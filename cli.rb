@@ -12,7 +12,7 @@ end
 
 expressions.each do |expression|
   t0 = Time.now
-  result = `go run logger.go "#{expression}"`
+  result = `./logger "#{expression}"`
   delta = Time.now - t0
   puts result.delete!("\n") + ", " + delta.to_s
 end 
