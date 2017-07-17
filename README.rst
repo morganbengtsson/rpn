@@ -14,7 +14,7 @@ Finally run the cli interface and follow the instructions:
 
 You can also calculate expressions with an input file as so:
 
-.. code-block::bash
+.. code-block:: bash
 
    ./rpn.rb < input.txt
 
